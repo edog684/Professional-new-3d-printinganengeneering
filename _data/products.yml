@@ -1,7 +1,7 @@
 holiday_specials:
   - name: "Christmas Ornaments"
     image: "https://raw.githubusercontent.com/edog684/4d-print-website-professional/main/christmas-ornament.png"
-    description: "Custom festive ornaments for your holiday season"
+    description: "test for timing "
     price: "$12.99"
     category: "holiday"
     
