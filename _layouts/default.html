@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>{{ site.title }}</h1>
+            <p class="tagline">Sleek, Professional, Custom 3D Printing Solutions</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="{{ '/' | relative_url }}">Home</a></li>
+                <li><a href="{{ '/holiday.html' | relative_url }}">Holiday Specials</a></li>
+                <li><a href="{{ '/practical.html' | relative_url }}">Practical Items</a></li>
+                <li><a href="{{ '/fidgets.html' | relative_url }}">Silent Fidgets</a></li>
+                <li><a href="{{ '/' | relative_url }}#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        {{ content }}
+    </main>
+
+    <footer>
+        <p>&copy; 2026 {{ site.title }}. All rights reserved.</p>
+        <p>Crafted with precision and passion.</p>
+    </footer>
+
+    <script src="{{ '/assets/js/script.js' | relative_url }}"></script>
+</body>
+</html>
