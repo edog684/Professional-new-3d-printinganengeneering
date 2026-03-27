@@ -1,0 +1,21 @@
+# Jekyll Configuration
+title: "3D Printed Designs"
+description: "Professional 3D Printing Portfolio"
+author: "Your Name"
+email: "your-email@example.com"
+
+# Build settings
+markdown: kramdown
+theme: minima
+
+# Collections for products
+collections:
+  products:
+    output: false
+
+# Default front matter
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
