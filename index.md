@@ -7,7 +7,7 @@ title: Home
 
 <div class="slideshow-container">
     <div class="mySlides fade">
-        <img src="https://raw.githubusercontent.com/edog684/4d-print-website-professional/main/Screenshot%202026-03-26%20194458.png" alt="3D Print 1">
+        <img src="https://tse2.mm.bing.net/th/id/OIP.6hJ0p8_iVEO4mIuJGyy8KAHaE7?w=270&h=180&c=7&r=0&o=7&pid=1.7&rm=3" alt="3D Print 1">
         <div class="caption">Elegant Modern Design</div>
     </div>
     <div class="mySlides fade">
