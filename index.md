@@ -15,7 +15,7 @@ title: Home
         <div class="caption">Functional Masterpiece</div>
     </div>
     <div class="mySlides fade">
-        <img src="https://copilot.microsoft.com/th/id/BCO.dbf68091-29eb-4458-adb5-7d2b52f13078.png" alt="3D Print 3">
+        <img src="https://copilot.microsoft.com/th/id/BCO.13b23039-6f85-4c79-aa81-08bfe8428d26.png" alt="3D Print 3">
         <div class="caption">Artistic Creation</div>
     </div>
     <div class="mySlides fade">
