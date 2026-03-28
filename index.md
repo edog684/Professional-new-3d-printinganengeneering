@@ -11,15 +11,15 @@ title: Home
         <div class="caption">Elegant Modern Design</div>
     </div>
     <div class="mySlides fade">
-        <img src="https://raw.githubusercontent.com/edog684/4d-print-website-professional/main/Screenshot%202026-03-26%20194451.png" alt="3D Print 2">
+        <img src="https://copilot.microsoft.com/th/id/BCO.1b80db69-7240-451b-8688-ce813165cddf.png" alt="3D Print 2">
         <div class="caption">Functional Masterpiece</div>
     </div>
     <div class="mySlides fade">
-        <img src="https://raw.githubusercontent.com/edog684/4d-print-website-professional/main/Screenshot%202026-03-26%20194446.png" alt="3D Print 3">
+        <img src="https://copilot.microsoft.com/th/id/BCO.dbf68091-29eb-4458-adb5-7d2b52f13078.png" alt="3D Print 3">
         <div class="caption">Artistic Creation</div>
     </div>
     <div class="mySlides fade">
-        <img src="https://raw.githubusercontent.com/edog684/4d-print-website-professional/main/Screenshot%202026-03-26%20194438.png" alt="3D Print 4">
+        <img src="https://copilot.microsoft.com/th/id/BCO.0f78c76c-677d-4038-acd2-5e1d9014f696.png" alt="3D Print 4">
         <div class="caption">Custom Solution</div>
     </div>
 
