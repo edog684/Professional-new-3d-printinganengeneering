@@ -67,7 +67,7 @@ title: Home
 
 <section id="contact" class="contact-section">
     <h2>Get In Touch</h2>
-    <form action="https://formspree.io/f/mwvwvvpj" method="POST" class="contact-form">
+    <form action="https://formspree.io/f/mvzvzngp" method="POST" class="contact-form">
         <input type="text" name="name" placeholder="Your Name" required>
         <input type="email" name="email" placeholder="Your Email" required>
         <textarea name="message" placeholder="Describe your problem or inquiry" rows="5" required></textarea>
