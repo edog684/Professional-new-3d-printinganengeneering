@@ -47,28 +47,78 @@ function startAutoSlide() {
         slideIndex++;
         showSlides(slideIndex);
         startAutoSlide();
-    }, 5000); // Change slide every 5 seconds
+    }, 5000);
 }
 
-// Contact form handling
+
+// ---------------------------------------------------------
+// ✅ INSERT THE MODAL SCRIPT HERE
+// ---------------------------------------------------------
+
+document.addEventListener('DOMContentLoaded', function() {
+    const modal = document.getElementById('product-modal');
+    const closeModal = document.querySelector('.close-modal');
+
+    const modalImage = document.getElementById('modal-image');
+    const modalTitle = document.getElementById('modal-title');
+    const modalDescription = document.getElementById('modal-description');
+    const modalPrice = document.getElementById('modal-price');
+    const modalBuyNow = document.getElementById('modal-buy-now');
+    const modalAddCart = document.getElementById('modal-add-cart');
+
+    document.querySelectorAll('.product-card').forEach(card => {
+        card.addEventListener('click', () => {
+            modalImage.src = card.dataset.image;
+            modalTitle.textContent = card.dataset.name;
+            modalDescription.textContent = card.dataset.description;
+            modalPrice.textContent = "$" + card.dataset.price;
+
+            modalBuyNow.href = card.dataset.buy;
+
+            modalAddCart.dataset.itemId = card.dataset.id;
+            modalAddCart.dataset.itemName = card.dataset.name;
+            modalAddCart.dataset.itemPrice = card.dataset.price;
+            modalAddCart.dataset.itemUrl = card.dataset.url;
+            modalAddCart.dataset.itemImage = card.dataset.image;
+
+            modal.style.display = 'flex';
+        });
+    });
+
+    if (closeModal) {
+        closeModal.addEventListener('click', () => {
+            modal.style.display = 'none';
+        });
+    }
+
+    window.addEventListener('click', (e) => {
+        if (e.target === modal) {
+            modal.style.display = 'none';
+        }
+    });
+});
+
+
+// ---------------------------------------------------------
+// Contact form handling (leave this where it is)
+// ---------------------------------------------------------
+
 document.addEventListener('DOMContentLoaded', function() {
     const contactForm = document.querySelector('.contact-form');
     const popup = document.getElementById('popup');
 
     if (contactForm) {
         contactForm.addEventListener('submit', async function(e) {
-            e.preventDefault(); // Stop normal redirect
+            e.preventDefault();
 
             const formData = new FormData(contactForm);
 
-            // Send to Formspree manually
             await fetch(contactForm.action, {
                 method: 'POST',
                 body: formData,
                 headers: { 'Accept': 'application/json' }
             });
 
-            // Show popup
             popup.classList.add('show');
 
             setTimeout(() => {
