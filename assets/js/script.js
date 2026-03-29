@@ -56,12 +56,26 @@ document.addEventListener('DOMContentLoaded', function() {
     const popup = document.getElementById('popup');
 
     if (contactForm) {
-        contactForm.addEventListener('submit', function() {
+        contactForm.addEventListener('submit', async function(e) {
+            e.preventDefault(); // Stop normal redirect
+
+            const formData = new FormData(contactForm);
+
+            // Send to Formspree manually
+            await fetch(contactForm.action, {
+                method: 'POST',
+                body: formData,
+                headers: { 'Accept': 'application/json' }
+            });
+
+            // Show popup
             popup.classList.add('show');
 
             setTimeout(() => {
                 popup.classList.remove('show');
             }, 3000);
+
+            contactForm.reset();
         });
     }
 });
