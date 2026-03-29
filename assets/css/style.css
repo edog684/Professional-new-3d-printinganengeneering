@@ -412,3 +412,78 @@ footer p {
   box-shadow: 0 0 20px rgba(0,0,0,0.4);
   border: 1px solid #6a00ff;
 }
+
+/* Product modal overlay */
+.product-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(3, 3, 10, 0.85);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 9998;
+}
+
+/* Modal content box */
+.modal-content {
+  background: #15151f;
+  padding: 1.5rem;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 650px;
+  color: #f5f5ff;
+  position: relative;
+  border: 1px solid #6a00ff;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.7);
+}
+
+.modal-content img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+/* Close button */
+.close-modal {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 26px;
+  cursor: pointer;
+  color: #aaa;
+}
+
+.close-modal:hover {
+  color: #fff;
+}
+
+/* Buttons row */
+.modal-buttons {
+  margin-top: 1rem;
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.buy-now,
+.modal-buttons button {
+  background: #6a00ff;
+  color: #fff;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 999px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buy-now:hover,
+.modal-buttons button:hover {
+  background: #8a2bff;
+}
