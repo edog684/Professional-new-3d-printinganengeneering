@@ -54,10 +54,10 @@ function startAutoSlide() {
 document.addEventListener('DOMContentLoaded', function() {
     const contactForm = document.querySelector('.contact-form');
     if (contactForm) {
-        contactForm.addEventListener('submit', function(e) {
-            e.preventDefault();
+        contactForm.addEventListener('submit', function() {
             alert('Thank you for your message! We will get back to you soon.');
-            this.reset();
+            // DO NOT preventDefault()
+            // DO NOT reset the form here
         });
     }
 });
