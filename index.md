@@ -65,12 +65,23 @@ title: Home
 
 ## Customer Service / Problem Space
 
+
 <section id="contact" class="contact-section">
     <h2>Get In Touch</h2>
+
     <form action="https://formspree.io/f/mvzvzngp" method="POST" class="contact-form">
+        <input type="hidden" name="_redirect" value="false">
+
         <input type="text" name="name" placeholder="Your Name" required>
         <input type="email" name="email" placeholder="Your Email" required>
         <textarea name="message" placeholder="Describe your problem or inquiry" rows="5" required></textarea>
         <button type="submit">Send Message</button>
     </form>
+
+    <!-- Popup goes RIGHT HERE -->
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <p>Thank you for your message! We will respond shortly.</p>
+        </div>
+    </div>
 </section>
