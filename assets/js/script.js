@@ -53,11 +53,30 @@ function startAutoSlide() {
 // Contact form handling
 document.addEventListener('DOMContentLoaded', function() {
     const contactForm = document.querySelector('.contact-form');
+    const successBox = document.getElementById('form-success');
+
     if (contactForm) {
         contactForm.addEventListener('submit', function() {
-            alert('send better alert test.');
-            // DO NOT preventDefault()
-            // DO NOT reset the form here
+            // Show success message immediately
+            if (successBox) {
+                successBox.style.display = 'block';
+                successBox.style.opacity = '1';
+
+                // Fade out after 3 seconds
+                setTimeout(() => {
+                    successBox.style.opacity = '0';
+                }, 3000);
+
+                // Hide completely after fade
+                setTimeout(() => {
+                    successBox.style.display = 'none';
+                }, 3500);
+            }
+
+            // IMPORTANT:
+            // Do NOT preventDefault()
+            // Do NOT reset the form
+            // Let Formspree handle the submission normally
         });
     }
 });
