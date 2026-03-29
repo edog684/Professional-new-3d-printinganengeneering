@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const contactForm = document.querySelector('.contact-form');
     if (contactForm) {
         contactForm.addEventListener('submit', function() {
-            alert('Thank you for your message! We will get back to you soon.');
+            alert('send better alert test.');
             // DO NOT preventDefault()
             // DO NOT reset the form here
         });
