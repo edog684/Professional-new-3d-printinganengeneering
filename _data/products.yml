@@ -1,159 +1,146 @@
 holiday_specials:
   - name: "Christmas Ornaments"
-    image: "https://raw.githubusercontent.com/edog684/4d-print-website-professional/main/christmas-ornament.png"
-    description: "test for timing "
+    image: "https://copilot.microsoft.com/th/id/BCO.10dd01c2-0a21-4c90-a567-5bf12bb601c0.png"
+    description: "test for timing"
     price: "$12.99"
     category: "holiday"
-    
+
   - name: "Holiday Figurines"
-    image: "https://raw.githubusercontent.com/edog684/4d-print-website-professional/main/holiday-figurines.png"
+    image: "https://copilot.microsoft.com/th/id/BCO.bd41336d-f773-449c-b157-4182111f4eeb.png"
     description: "Unique collectible figurines for festive displays"
     price: "$18.99"
     category: "holiday"
-    
+
   - name: "Gift Box Toppers"
-    image: "https://raw.githubusercontent.com/edog684/4d-print-website-professional/main/gift-toppers.png"
+    image: "https://copilot.microsoft.com/th/id/BCO.a81487ca-e739-4b64-be3f-52f3d7a6997a.png"
     description: "Elegant toppers to personalize your holiday gifts"
     price: "$8.99"
     category: "holiday"
-    
+
   - name: "Snowflake Decorations"
-    image: "https://raw.githubusercontent.com/edog684/4d-print-website-professional/main/snowflakes.png"
+    image: "https://copilot.microsoft.com/th/id/BCO.e9a37682-6f3a-4095-87a4-b36603a4e7b0.png"
     description: "Beautiful snowflake designs for winter displays"
     price: "$10.99"
     category: "holiday"
-    
+
   - name: "Holiday Lights Holder"
-    image: "https://raw.githubusercontent.com/edog684/4d-print-website-professional/main/lights-holder.png"
+    image: "https://copilot.microsoft.com/th/id/BCO.963dd959-75b4-43dd-a15c-7fef5bf41e8c.png"
     description: "Organize and display holiday lights stylishly"
     price: "$15.99"
     category: "holiday"
-    
+
   - name: "Santa Figurines"
-    image: "https://raw.githubusercontent.com/edog684/4d-print-website-professional/main/santa.png"
+    image: "https://copilot.microsoft.com/th/id/BCO.e27fe6d2-2d8b-4e29-a21a-590dd49ff7bd.png"
     description: "Charming Santa designs for festive collections"
     price: "$14.99"
     category: "holiday"
-    
+
   - name: "Wreath Ornaments"
-    image: "https://raw.githubusercontent.com/edog684/4d-print-website-professional/main/wreath.png"
+    image: "https://copilot.microsoft.com/th/id/BCO.b3824141-e97b-4f22-97a0-9f5efae62aa6.png"
     description: "Elegant wreath designs for any door or tree"
     price: "$11.99"
     category: "holiday"
-    
+
   - name: "Sleigh Models"
     image: "https://raw.githubusercontent.com/edog684/4d-print-website-professional/main/sleigh.png"
     description: "Detailed miniature sleighs for holiday displays"
     price: "$19.99"
     category: "holiday"
 
-practical_items:
-  - name: "Phone Stand"
-    image: "https://raw.githubusercontent.com/edog684/4d-print-website-professional/main/phone-stand.png"
-    description: "Sturdy and sleek phone holder for any device"
-    price: "$9.99"
-    category: "practical"
-    
-  - name: "Desk Organizer"
-    image: "https://raw.githubusercontent.com/edog684/4d-print-website-professional/main/desk-organizer.png"
-    description: "Keep your workspace organized and tidy"
-    price: "$14.99"
-    category: "practical"
-    
-  - name: "Cable Management System"
-    image: "https://raw.githubusercontent.com/edog684/4d-print-website-professional/main/cable-management.png"
-    description: "Organize cables efficiently and cleanly"
-    price: "$11.99"
-    category: "practical"
-    
-  - name: "Pen Holder"
-    image: "https://raw.githubusercontent.com/edog684/4d-print-website-professional/main/pen-holder.png"
-    description: "Stylish holder for pens, pencils, and markers"
-    price: "$7.99"
-    category: "practical"
-    
-  - name: "Monitor Stand Riser"
-    image: "https://raw.githubusercontent.com/edog684/4d-print-website-professional/main/monitor-stand.png"
-    description: "Elevate your monitor for better ergonomics"
-    price: "$16.99"
-    category: "practical"
-    
-  - name: "Drawer Dividers"
-    image: "https://raw.githubusercontent.com/edog684/4d-print-website-professional/main/drawer-dividers.png"
-    description: "Organize drawers with custom dividers"
-    price: "$6.99"
-    category: "practical"
-    
-  - name: "Wall Mount Organizer"
-    image: "https://raw.githubusercontent.com/edog684/4d-print-website-professional/main/wall-mount.png"
-    description: "Wall-mounted storage for small items"
-    price: "$13.99"
-    category: "practical"
-    
-  - name: "Cable Box Organizer"
-    image: "https://raw.githubusercontent.com/edog684/4d-print-website-professional/main/cable-box.png"
-    description: "Hide and organize cables and cords neatly"
-    price: "$12.99"
-    category: "practical"
-
 silent_fidgets:
   - name: "Infinity Cube"
-    image: "https://raw.githubusercontent.com/edog684/4d-print-website-professional/main/infinity-cube.png"
+    image: "https://copilot.microsoft.com/th/id/BCO.3c8afa93-8ef7-4f57-ad26-c79ac7817d34.png"
     description: "Endless fidgeting without making a sound"
     price: "$7.99"
     category: "fidgets"
-    
+
   - name: "Stress Relief Toy"
-    image: "https://raw.githubusercontent.com/edog684/4d-print-website-professional/main/stress-relief.png"
+    image: "https://copilot.microsoft.com/th/id/BCO.61301835b4e442f09a541153b2a5fb0b.png"
     description: "Calming fidget toy with smooth finish"
     price: "$6.99"
     category: "fidgets"
-    
+
   - name: "Puzzle Fidget"
-    image: "https://raw.githubusercontent.com/edog684/4d-print-website-professional/main/puzzle-fidget.png"
+    image: "https://copilot.microsoft.com/th/id/BCO.ae3eb7981a5241f8a7cd7c0624b7a6a.png"
     description: "Interactive puzzle that keeps hands engaged"
     price: "$9.99"
     category: "fidgets"
-    
+
   - name: "Spinner Fidget"
-    image: "https://raw.githubusercontent.com/edog684/4d-print-website-professional/main/spinner.png"
+    image: "https://copilot.microsoft.com/th/id/BCO.568c546d9b346a25b1cb4162f6f407ad.png"
     description: "Smooth spinning action for stress relief"
     price: "$5.99"
     category: "fidgets"
-    
+
   - name: "Pop It Fidget Toy"
-    image: "https://raw.githubusercontent.com/edog684/4d-print-website-professional/main/pop-it.png"
+    image: "https://copilot.microsoft.com/th/id/BCO.5c95f6ca-c0a8-4d48-90ae-72bf0d7c12cb.png"
     description: "Satisfying bubble-popping sensory toy"
     price: "$8.99"
     category: "fidgets"
-    
+
   - name: "Squeeze Ball Fidget"
-    image: "https://raw.githubusercontent.com/edog684/4d-print-website-professional/main/squeeze-ball.png"
+    image: "https://copilot.microsoft.com/th/id/BCO.f813bb5b-44f4-4fd1-9101-0c5b11cace4e.png"
     description: "Soft, squishy ball for hand relaxation"
     price: "$4.99"
     category: "fidgets"
-    
+
   - name: "Mesh Marble Fidget"
-    image: "https://raw.githubusercontent.com/edog684/4d-print-website-professional/main/mesh-marble.png"
+    image: "https://copilot.microsoft.com/th/id/BCO.3fb7ba89-2504-4f7e-8b1e-ef9ecd8573ea.png"
     description: "Satisfying marble pressing sensation"
     price: "$6.99"
     category: "fidgets"
-    
+
   - name: "Silent Click Clack"
-    image: "https://raw.githubusercontent.com/edog684/4d-print-website-professional/main/click-clack.png"
+    image: "https://copilot.microsoft.com/th/id/BCO.aa5cba0e-d54f-4fc7-a69f-0e893d8f8409.png"
     description: "Quiet clicking fidget for discreet use"
     price: "$7.99"
     category: "fidgets"
 
-recently_updated:
-  - name: "Infinity Cube"
-    image: "https://raw.githubusercontent.com/edog684/4d-print-website-professional/main/infinity-cube.png"
-    description: "Endless fidgeting without making a sound"
-    price: "$7.99"
-    updated_date: "2026-03-27"
-    
+practical_items:
   - name: "Phone Stand"
-    image: "https://raw.githubusercontent.com/edog684/4d-print-website-professional/main/phone-stand.png"
+    image: "https://copilot.microsoft.com/th/id/BCO.d8ea9a5d-265d-4af4-aaf7-9f3d593d99a2.png"
     description: "Sturdy and sleek phone holder for any device"
     price: "$9.99"
-    updated_date: "2026-03-27"
+    category: "practical"
+
+  - name: "Desk Organizer"
+    image: "https://copilot.microsoft.com/th/id/BCO.282b3e2b-cfc3-4bc9-b28e-1e746b4000f4.png"
+    description: "Keep your workspace organized and tidy"
+    price: "$14.99"
+    category: "practical"
+
+  - name: "Cable Management System"
+    image: "https://copilot.microsoft.com/th/id/BCO.3a7e66fe-a9f7-4b40-a508-70dd2bfa2757.png"
+    description: "Organize cables efficiently and cleanly"
+    price: "$11.99"
+    category: "practical"
+
+  - name: "Pen Holder"
+    image: "https://copilot.microsoft.com/th/id/BCO.f99b6bb9-4491-4723-b4b2-b485ee428938.png"
+    description: "Stylish holder for pens, pencils, and markers"
+    price: "$7.99"
+    category: "practical"
+
+  - name: "Monitor Stand Riser"
+    image: "https://copilot.microsoft.com/th/id/BCO.0a77d0e2-5845-44df-90f5-056f4a4fc842.png"
+    description: "Elevate your monitor for better ergonomics"
+    price: "$16.99"
+    category: "practical"
+
+  - name: "Drawer Dividers"
+    image: "https://copilot.microsoft.com/th/id/BCO.e430a2d6c7c4107dbe2a88562e169da8.png"
+    description: "Organize drawers with custom dividers"
+    price: "$6.99"
+    category: "practical"
+
+  - name: "Wall Mount Organizer"
+    image: "https://copilot.microsoft.com/th/id/BCO.c2074516255a498cb1e2281838af01.png"
+    description: "Wall-mounted storage for small items"
+    price: "$13.99"
+    category: "practical"
+
+  - name: "Cable Box Organizer"
+    image: "https://copilot.microsoft.com/th/id/BCO.f0c6dcae087849fd8a62a0e6efbff7f.png"
+    description: "Hide and organize cables and cords neatly"
+    price: "$12.99"
+    category: "practical"
