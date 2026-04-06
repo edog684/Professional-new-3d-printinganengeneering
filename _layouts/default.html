@@ -33,31 +33,35 @@
     </footer>
 
     <div id="product-modal" class="product-modal">
-  <div class="modal-content">
-    <span class="close-modal">&times;</span>
+      <div class="modal-content">
+        <span class="close-modal">&times;</span>
 
-    <img id="modal-image" src="" alt="">
-    <h2 id="modal-title"></h2>
-    <p id="modal-description"></p>
-    <p id="modal-price"></p>
+        <img id="modal-image" src="" alt="">
+        <h2 id="modal-title"></h2>
+        <p id="modal-description"></p>
+        <p id="modal-price"></p>
 
-    <div class="modal-buttons">
-      <a id="modal-buy-now" class="buy-now" href="#" target="_blank">Buy Now</a>
+        <div class="modal-buttons">
+          <a id="modal-buy-now" class="buy-now" href="#" target="_blank">Buy Now</a>
 
-      <button 
-        id="modal-add-cart"
-        class="snipcart-add-item"
-        data-item-id=""
-        data-item-name=""
-        data-item-price=""
-        data-item-url=""
-        data-item-image="">
-        Add to Cart
-      </button>
+          <button 
+            id="modal-add-cart"
+            class="snipcart-add-item"
+            data-item-id=""
+            data-item-name=""
+            data-item-price=""
+            data-item-url=""
+            data-item-image="">
+            Add to Cart
+          </button>
+        </div>
+      </div>
     </div>
-  </div>
-</div>
     
     <script src="{{ '/assets/js/script.js' | relative_url }}"></script>
+
+    <!-- ✅ Add Vercel Analytics script HERE -->
+    <script defer src="/_vercel/insights/script.js"></script>
+
 </body>
 </html>
